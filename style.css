@@ -65,11 +65,13 @@ p{
     font-size: 2rem;
     width: 100%;
     color: black;
+ 
 }
 
 a{
     text-decoration: none;
     font-family: 'Merriweather', serif;
+    color: black;
 }
 
 a:visited{
