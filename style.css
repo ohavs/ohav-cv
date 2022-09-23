@@ -2,6 +2,7 @@ body{
     font-size: 62.5%;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 .image{
@@ -11,8 +12,8 @@ body{
     align-content: center;
 }
 img{
-width: 50%;
-height: 50%;
+width: 45%;
+height: 45%;
 margin-top: 5rem;
 }
 
@@ -32,8 +33,11 @@ margin-top: 5rem;
 .soundCloud{
     animation: bounceInLeft 1.5s;
 }
-.spotify{
+.youtube{
     animation: bounceInLeft 1.8s;
+}
+.tiktok{
+    animation: bounceInLeft 2s;
 }
 
 p{
@@ -49,7 +53,7 @@ p{
     flex-direction: column;
     gap: 3rem;
 }
-.input{
+.button{
     border: .1rem solid white;
     display: flex;
     flex-direction: row;
@@ -65,13 +69,15 @@ p{
     font-size: 2rem;
     width: 100%;
     color: black;
- 
 }
 
 a{
     text-decoration: none;
     font-family: 'Merriweather', serif;
     color: black;
+  display: inline-block;
+  width: 100%;
+   
 }
 
 a:visited{
@@ -82,7 +88,6 @@ a:visited{
 .hidden{
     display: none;
 }
-
 
 
 
