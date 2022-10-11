@@ -12,9 +12,9 @@ body{
     align-content: center;
 }
 img{
-width: 45%;
-height: 45%;
-margin-top: 5rem;
+width:60%;
+height: 60%;
+margin-top: 8rem;
 }
 
 .logo{
@@ -62,26 +62,30 @@ p{
      border-radius: 1rem;
      background-color: transparent;
      cursor: pointer;
+     width: 100%;
+     margin: auto;
+     
 }
 
 .fa-brands{
     margin-top: 1rem;
     font-size: 2rem;
     width: 100%;
-    color: black;
+    color: white;
+
 }
 
 a{
     text-decoration: none;
     font-family: 'Merriweather', serif;
-    color: black;
+    color: white;
   display: inline-block;
   width: 100%;
    
 }
 
 a:visited{
-    color: black;
+    color: white;
 }
     
 
@@ -343,4 +347,4 @@ a:visited{
     }
   }
   
-  
+   
